@@ -1,0 +1,57 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 20px;
+  height: 94vh;
+}
+.sidebar h2 {
+  color: rgb(9, 9, 95);
+  text-decoration: underline;
+}
+.sidebar h6 {
+  letter-spacing: 3px;
+}
+
+.item {
+  text-decoration: none;
+}
+.item p {
+  color: black;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  padding: 6px;
+
+  transition: 0.4s ease-in-out;
+}
+.item p:hover {
+  background: rgb(9, 9, 95);
+  color: white;
+}
+.icon {
+  margin-right: 0.5rem;
+}
+.login-btn {
+  margin-top: 15px;
+  padding: 0.4rem 1.3rem;
+  background-color: rgb(9, 9, 95);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-btn i {
+  margin-left: 5px;
+}
+.login-btn:hover {
+  background-color: aliceblue;
+  color: rgb(9, 9, 95);
+}
+.sidebar-user h3 {
+  color: rgb(9, 9, 95);
+}
+.sidebar-user p {
+  font-size: 0.7rem;
+}

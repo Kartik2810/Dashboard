@@ -1,0 +1,9 @@
+.dashboard {
+  display: flex;
+  gap: 20px;
+}
+.dashborad-content {
+  background-color: white;
+  flex: 1;
+  padding: 2rem;
+}
